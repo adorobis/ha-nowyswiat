@@ -1,6 +1,6 @@
 # Radio Nowy Świat for Home Assistant
 
-[![hacs][hacs-badge]][hacs-url]
+[![Marketplace][marketplace-badge]][marketplace-url]
 [![Validate][validate-badge]][validate-url]
 
 Unofficial Home Assistant integration for [Radio Nowy Świat](https://nowyswiat.online):
@@ -41,13 +41,21 @@ browse and play the patron podcasts and the live stream on any media player
 
 ## Installation
 
-### HACS (recommended)
+### Marketplace (recommended)
 
-1. HACS → ⋮ → **Custom repositories** → add `https://github.com/adorobis/ha-nowyswiat`,
-   type **Integration**.
-2. Search for **Radio Nowy Świat**, download it and restart Home Assistant.
+Install it from the Home Assistant **Marketplace** as a custom repository:
 
-[![Open in HACS][my-hacs-badge]][my-hacs-url]
+1. Settings → **Marketplace**. Adding custom repositories needs the Marketplace to be connected
+   to GitHub; it asks for that the first time.
+2. ⋮ → **Custom repositories** → add `https://github.com/adorobis/ha-nowyswiat`, type
+   **Integration**.
+3. Open **Radio Nowy Świat**, **Download** it and restart Home Assistant.
+
+Or open the repository in your Marketplace directly:
+
+[![Open in your Home Assistant Marketplace][my-badge]][my-url]
+
+Updates then show up in Home Assistant like any other update.
 
 ### Manual
 
@@ -134,9 +142,11 @@ Sonos, Chromecast, przeglądarka…) z poziomu przeglądarki mediów w Home Assi
 - Radio **na żywo** w trzech jakościach.
 - Wymagane konto na nowyswiat.online. Pełne podcasty wymagają aktywnego patronatu.
 
-**Instalacja:** HACS → ⋮ → *Custom repositories* → `https://github.com/adorobis/ha-nowyswiat`
-(typ *Integration*) → pobierz **Radio Nowy Świat** → restart HA → Ustawienia →
-Urządzenia i usługi → *Dodaj integrację* → **Radio Nowy Świat** → zaloguj się.
+**Instalacja:** Ustawienia → **Marketplace** (przy pierwszym dodawaniu repozytorium trzeba
+połączyć Marketplace z GitHubem) → ⋮ → *Custom repositories* →
+`https://github.com/adorobis/ha-nowyswiat` (typ *Integration*) → pobierz **Radio Nowy Świat** →
+restart HA → Ustawienia → Urządzenia i usługi → *Dodaj integrację* → **Radio Nowy Świat** →
+zaloguj się. Aktualizacje pojawią się potem w HA jak każde inne.
 
 Integracja nie jest powiązana z Radiem Nowy Świat. Korzysta ze strony internetowej tak
 jak przeglądarka, więc zmiany na stronie mogą wymagać jej aktualizacji.
@@ -145,9 +155,9 @@ jak przeglądarka, więc zmiany na stronie mogą wymagać jej aktualizacji.
 
 [MIT](LICENSE)
 
-[hacs-badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg
-[hacs-url]: https://hacs.xyz
+[marketplace-badge]: https://img.shields.io/badge/Marketplace-custom%20repository-41BDF5.svg
+[marketplace-url]: https://www.home-assistant.io/integrations/marketplace
 [validate-badge]: https://github.com/adorobis/ha-nowyswiat/actions/workflows/validate.yml/badge.svg
 [validate-url]: https://github.com/adorobis/ha-nowyswiat/actions/workflows/validate.yml
-[my-hacs-badge]: https://my.home-assistant.io/badges/hacs_repository.svg
-[my-hacs-url]: https://my.home-assistant.io/redirect/hacs_repository/?owner=adorobis&repository=ha-nowyswiat&category=integration
+[my-badge]: https://my.home-assistant.io/badges/marketplace_repository.svg
+[my-url]: https://my.home-assistant.io/redirect/marketplace_repository/?owner=adorobis&repository=ha-nowyswiat&category=integration
