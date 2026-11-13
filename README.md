@@ -49,7 +49,8 @@ Install it from the Home Assistant **Marketplace** as a custom repository:
    to GitHub; it asks for that the first time.
 2. ⋮ → **Custom repositories** → add `https://github.com/adorobis/ha-nowyswiat`, type
    **Integration**.
-3. Open **Radio Nowy Świat**, **Download** it and restart Home Assistant.
+3. Open **Radio Nowy Świat** and **Download** it. A first install needs no restart; after
+   an update Home Assistant asks for one.
 
 Or open the repository in your Marketplace directly:
 
@@ -145,8 +146,9 @@ Sonos, Chromecast, przeglądarka…) z poziomu przeglądarki mediów w Home Assi
 **Instalacja:** Ustawienia → **Marketplace** (przy pierwszym dodawaniu repozytorium trzeba
 połączyć Marketplace z GitHubem) → ⋮ → *Custom repositories* →
 `https://github.com/adorobis/ha-nowyswiat` (typ *Integration*) → pobierz **Radio Nowy Świat** →
-restart HA → Ustawienia → Urządzenia i usługi → *Dodaj integrację* → **Radio Nowy Świat** →
-zaloguj się. Aktualizacje pojawią się potem w HA jak każde inne.
+Ustawienia → Urządzenia i usługi → *Dodaj integrację* → **Radio Nowy Świat** →
+zaloguj się. Restart nie jest potrzebny przy pierwszej instalacji, tylko po aktualizacji.
+Aktualizacje pojawią się potem w HA jak każde inne.
 
 Integracja nie jest powiązana z Radiem Nowy Świat. Korzysta ze strony internetowej tak
 jak przeglądarka, więc zmiany na stronie mogą wymagać jej aktualizacji.
