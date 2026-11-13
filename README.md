@@ -28,6 +28,9 @@ browse and play the patron podcasts and the live stream on any media player
 - **Audio proxy**: players get a plain local `http://` URL from Home Assistant, so they
   need no website cookies and no HTTPS support. If the podcast server drops the
   connection, the proxy reconnects at the exact byte and the player doesn't notice.
+- With [MusicCast Extras](https://github.com/adorobis/ha-musiccast-extras) a Yamaha speaker shows
+  the title, hosts, cover and duration, can seek and resume episodes, and can queue them (the
+  next episode starts when one ends).
 - Polish and English UI translations.
 
 ## Requirements
@@ -141,6 +144,8 @@ Sonos, Chromecast, przeglądarka…) z poziomu przeglądarki mediów w Home Assi
 - Audycje w kilku częściach można odtworzyć w całości jako jeden plik z przewijaniem
   albo po jednej części.
 - Radio **na żywo** w trzech jakościach.
+- Z [MusicCast Extras](https://github.com/adorobis/ha-musiccast-extras) głośniki Yamaha pokazują
+  tytuł, okładkę i czas trwania, przewijają, wznawiają i kolejkują odcinki.
 - Wymagane konto na nowyswiat.online. Pełne podcasty wymagają aktywnego patronatu.
 
 **Instalacja:** Ustawienia → **Marketplace** (przy pierwszym dodawaniu repozytorium trzeba
