@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Radio Nowy Świat",
+        "description": "Log in with your nowyswiat.online account. Full-length podcasts need an active patron subscription.",
+        "data": {
+          "username": "Username or e-mail",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Radio Nowy Świat",
+        "description": "The password for {username} was rejected. Enter the current one.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password.",
+      "cannot_connect": "Could not reach nowyswiat.online."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication was successful.",
+      "single_instance_allowed": "Only one account can be configured."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "nowyswiat",
+  "name": "Radio Nowy Świat",
+  "codeowners": [
+    "@adorobis"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http",
+    "media_source"
+  ],
+  "documentation": "https://github.com/adorobis/ha-nowyswiat",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/adorobis/ha-nowyswiat/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Radio Nowy Świat",
+        "description": "Zaloguj się kontem nowyswiat.online. Pełne podcasty wymagają aktywnego patronatu.",
+        "data": {
+          "username": "Login lub e-mail",
+          "password": "Hasło"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Radio Nowy Świat",
+        "description": "Hasło dla {username} zostało odrzucone. Podaj aktualne.",
+        "data": {
+          "password": "Hasło"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Nieprawidłowy login lub hasło.",
+      "cannot_connect": "Brak połączenia z nowyswiat.online."
+    },
+    "abort": {
+      "already_configured": "To konto jest już skonfigurowane.",
+      "reauth_successful": "Ponowne logowanie powiodło się.",
+      "single_instance_allowed": "Można skonfigurować tylko jedno konto."
+    }
+  }
+}
